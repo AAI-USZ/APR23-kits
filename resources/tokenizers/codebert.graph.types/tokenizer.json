@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "WhitespaceSplit"
+  },
+  "post_processor": {
+    "type": "RobertaProcessing",
+    "sep": [
+      "<pad>",
+      1
+    ],
+    "cls": [
+      "<pad>",
+      1
+    ],
+    "trim_offsets": true,
+    "add_prefix_space": false
+  },
+  "decoder": null,
+  "model": {
+    "type": "WordLevel",
+    "vocab": {
+      "<s>": 0,
+      "<pad>": 1,
+      "</s>": 2,
+      "<unk>": 3,
+      "R": 4,
+      "N": 5,
+      "E": 6,
+      "T": 7
+    },
+    "unk_token": "<unk>"
+  }
+}

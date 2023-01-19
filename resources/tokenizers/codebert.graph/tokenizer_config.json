@@ -1,0 +1,15 @@
+{
+  "add_prefix_space": false,
+  "bos_token": "<s>",
+  "cls_token": "<graph>",
+  "do_lower_case": true,
+  "eos_token": "</s>",
+  "errors": "replace",
+  "mask_token": "<mask>",
+  "model_max_length": 2048,
+  "pad_token": "<pad>",
+  "sep_token": "</graph>",
+  "tokenizer_class": "RobertaTokenizer",
+  "trim_offsets": true,
+  "unk_token": "<unk>"
+}

@@ -1,0 +1,1 @@
+from .dictclass import dictclass
