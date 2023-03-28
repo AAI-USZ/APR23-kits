@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results: cmd-graph</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<main id="main" class="main-content">
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Model</th>
+          <th rowspan="2">Dataset Size</th>
+          <th colspan="2">Command Sequence Tokens</th>
+          <th colspan="2">Graph</th>
+          <th colspan="2">Cmd. vs. Graph</th>
+        </tr>
+        <tr>
+          <th>Java 100%</th>
+          <th>FixJS 100%</th>
+          <th>Java 100%</th>
+          <th>FixJS 100%</th>
+          <th>Java</th>
+          <th>FixJS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>T5-base, empty</td>
+          <td>Small</td>
+          <td>0.2598</td>
+          <td>0.0714</td>
+          <td>0.0077</td>
+          <td>0.0010</td>
+          <td>-0.2521</td>
+          <td>-0.0704</td>
+        </tr>
+        <tr>
+          <td>T5-base, empty</td>
+          <td>Medium</td>
+          <td>0.1488</td>
+          <td>0.0149</td>
+          <td>0.0000</td>
+          <td>0.0000</td>
+          <td>-0.1488</td>
+          <td>-0.0149</td>
+        </tr>
+        <tr>
+          <td>T5-base</td>
+          <td>Small</td>
+          <td>0.2946</td>
+          <td>0.0000</td>
+          <td>0.0077</td>
+          <td>0.0010</td>
+          <td>-0.2869</td>
+          <td>0.0010</td>
+        </tr>
+        <tr>
+          <td>T5-base</td>
+          <td>Medium</td>
+          <td>0.1733</td>
+          <td>0.0184</td>
+          <td>0.0000</td>
+          <td>0.0000</td>
+          <td>-0.1733</td>
+          <td>-0.0184</td>
+        </tr>
+        <tr>
+          <td>CodeT5-base</td>
+          <td>Small</td>
+          <td>0.3064</td>
+          <td>0.0000</td>
+          <td>0.0077</td>
+          <td>0.0010</td>
+          <td>-0.2987</td>
+          <td>0.0010</td>
+        </tr>
+        <tr>
+          <td>CodeT5-base</td>
+          <td>Medium</td>
+          <td>0.1853</td>
+          <td>0.0639</td>
+          <td>0.0000</td>
+          <td>0.0000</td>
+          <td>-0.1853</td>
+          <td>-0.0639</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2" class="td-bold">Average</td>
+          <td>0.2280</td>
+          <td>0.0281</td>
+          <td>0.0039</td>
+          <td>0.0005</td>
+          <td>-0.2242</td>
+          <td>-0.0276</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="td-bold">Min.</td>
+          <td>0.1488</td>
+          <td>0.0000</td>
+          <td>0.0000</td>
+          <td>0.0000</td>
+          <td>0.1488</td>
+          <td>0.0010</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="td-bold">Max.</td>
+          <td>0.3064</td>
+          <td>0.0714</td>
+          <td>0.0077</td>
+          <td>0.0010</td>
+          <td>0.2987</td>
+          <td>0.0704</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</main>
+</body>
+
+</html>
